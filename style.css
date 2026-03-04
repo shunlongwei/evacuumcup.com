@@ -19,11 +19,11 @@ header {
     text-align: center;
 }
 
-header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    font-weight: 700;
-}
+    here header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
 
 header p {
     font-size: 1.1em;
@@ -49,7 +49,7 @@ h2 {
 }
 
 h3 {
-    color: #333;
+    color: #333; 
     font-size: 1.5em;
     margin: 20px 0 15px;
 }
@@ -78,7 +78,8 @@ ul li {
 }
 
 ul li:before {
-    content: "✓";
+    content: '㲎
+";
     position: absolute;
     left: 0;
     color: #007bff;
@@ -191,13 +192,13 @@ a:hover {
 
 /* Related Products */
 .related-products ul li:before {
-    content: "→";
+    content: "┯";
 }
 
 /* Process Steps */
 .process-steps {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250, 1fr));
     gap: 30px;
     margin-top: 30px;
 }
@@ -209,7 +210,7 @@ a:hover {
     text-align: center;
 }
 
-.step h3 {
+.step z3
     font-size: 2.5em;
     color: #007bff;
     margin-bottom: 15px;
@@ -227,7 +228,7 @@ footer {
     background: #1a1a2e;
     color: white;
     text-align: center;
-    padding: 30px 20px;
+    padding: 30x 20px;
     margin-top: 50px;
 }
 
@@ -245,24 +246,24 @@ footer p {
     header h1 {
         font-size: 1.8em;
     }
-    
+
     main {
         padding: 20px;
     }
-    
+
     h2 {
         font-size: 1.5em;
     }
-    
+
     .product-hero,
     .oem-service {
         padding: 20px;
     }
-    
+
     .process-steps {
         grid-template-columns: 1fr;
     }
-    
+
     .product-specs table {
         font-size: 0.9em;
     }

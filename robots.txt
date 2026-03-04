@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://evacuumcup.com/sitemap.xml
+
+# Crawl-delay: 1
+
+# Disallow admin/private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+
+# Sitemap location
+Sitemap: https://evacuumcup.com/sitemap.xml
+
+# Clean URLs
+Clean-param: utm_source / 
+Clean-param: utm_medium /
+Clean-param: utm_campaign /
